@@ -1,5 +1,6 @@
 # Simulation-of-a-single-server-queue
 Discrete Event simulation of a single server queue using Python. 
+
 ## Why Study Queues?
 **Waiting for to be attended is part of daily life. We wait in restaurants, we do a
 line to board a plane, and we stand in line to be served at
@@ -9,6 +10,6 @@ until they are allowed to land, and the cars stop at traffic lights. Deleting th
 waiting entirely is not a feasible option because the cost of installation and
 operation of the operation center can be prohibitive. Our only recourse is to search
 the balance between the cost of offering a service and the cost of waiting for it to be served.
-Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)* .
+Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)* 
 ##  Objective: 
-- Generate a Simulation model that outputs the performance measures, such as average lenght of the queue, average waiting time on the queue, utilization of the system, etc. to provide information for designing or improving service facilities
+- Generate a Simulation model that outputs the performance measures, such as average length of the queue, average waiting time on the queue, utilization of the system, etc. to provide information for ***designing or improving service facilities***
