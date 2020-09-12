@@ -1,5 +1,5 @@
 # Discrete Event simulation of a single server queue using Python. 
-Written by:Miguel Angel Rizzo
+Written by: Miguel Angel Rizzo Gonzalez
 ![](https://user-images.githubusercontent.com/69512046/93006624-747df780-f52c-11ea-9b3a-8e0f97714b87.jpg)
 
 
