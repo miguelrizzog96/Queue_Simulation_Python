@@ -1,6 +1,6 @@
 # Simulation-of-a-single-server-queue
 Discrete Event simulation of a single server queue using Python. 
-	![alt text](queueing-theory-improve-performance_0.jpg)
+
 
 ## Why Study Queues?
 **Waiting to be attended is part of daily life. We wait in restaurants, we do a
