@@ -2,7 +2,7 @@
 Discrete Event simulation of a single server queue using Python. 
 
 ## Why Study Queues?
-**Waiting for to be attended is part of daily life. We wait in restaurants, we do a
+**Waiting to be attended is part of daily life. We wait in restaurants, we do a
 line to board a plane, and we stand in line to be served at
 official dependencies. The phenomenon of waiting is not limited to human beings:
 jobs wait to be processed, planes fly in circles at different heights
