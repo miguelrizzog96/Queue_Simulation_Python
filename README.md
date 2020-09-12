@@ -11,4 +11,4 @@ operation of the operation center can be prohibitive. Our only recourse is to se
 the balance between the cost of offering a service and the cost of waiting for it to be served.
 Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)* .
 ##  Objective: 
-- Generate a Simulation model that outputs the performance measures, such as average lenght of the queue, average waiting time on the queue, utilization of the system, etc. to provide decision support about 
+- Generate a Simulation model that outputs the performance measures, such as average lenght of the queue, average waiting time on the queue, utilization of the system, etc. to provide information for designing or improving service facilities
