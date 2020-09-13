@@ -21,18 +21,15 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-#Single server, single queue simulation
+# Single server, single queue simulation parameters
 l = 4 # average number of arrivals per minute
-µ =6 # average number of people served per minute
-ncust = 1000# number of customers
+µ = 6 # average number of people served per minute
+ncust = 1000 # number of customers
 c=1 # number of servers
 
- #generating inter arrival times using exponential distribution
+ # generating inter arrival times using exponential distribution
    
 inter_arrival_times = list(np.random.exponential(scale=1/l,size=ncust))
-
-    
-  #plotting the distrubution of the time between arrivals
 
     
 arrival_times= []# list of arrival times of a person joining the queue
@@ -51,8 +48,6 @@ for i in range(1,ncust):
         
     # Generate random service times for each customer 
 service_times = list(np.random.exponential(scale=1/µ,size=ncust))
-
-#plotting the distribution of the service times
 
         
     #finish time for first customer
