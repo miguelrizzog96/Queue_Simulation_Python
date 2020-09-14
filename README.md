@@ -39,5 +39,7 @@ Using Python 3.7.6
 
 - Generated arrival and service times with random number generation using the python library `numpy`
 - Generated lists and dataframes with conditional statements to represent the events ocurring in the queue
-- Using the generated model for simulating a Single server queue with 1000 customers
+- Used the generated model for simulating a Single server queue with 1000 customers
+
+## Results
 
