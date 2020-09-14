@@ -25,6 +25,7 @@ Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)*
 
 # Data Visualization
 
+Here are the distributions of the data and the value counts for other variables like occupation and number of customers in the system. Below are a few key points of the model.
 ![](https://user-images.githubusercontent.com/69512046/93101315-1b22df00-f678-11ea-91f7-b1b2a4b08e7b.png)
 ![](https://user-images.githubusercontent.com/69512046/93101333-1f4efc80-f678-11ea-9b21-e1a16462497e.png)
 ![](https://user-images.githubusercontent.com/69512046/93101325-1ceca280-f678-11ea-8315-9ec5cde3b81a.png)
