@@ -22,8 +22,8 @@ warnings.filterwarnings("ignore")
 
 
 # Single server, single queue simulation parameters
-l = 4 # average number of arrivals per minute
-µ = 6 # average number of people served per minute
+l = 1 # average number of arrivals per minute
+µ = 1.5 # average number of people served per minute
 ncust = 1000 # number of customers
 c=1 # number of servers
 
