@@ -35,7 +35,8 @@ Here are the distributions of the data and the value counts for other variables 
 ![](https://user-images.githubusercontent.com/69512046/93101287-16f6c180-f678-11ea-9265-5b5804c180d5.png)
 
 ## Model Development Steps
-Using Python 3.7.6
+Using Python 3.7.6:
+
 Parameters: λ = 1 (exponential) , μ = 1.5 (exponential) , c = 1
 
 - Generated arrival and service times with random number generation using the python library `numpy`
