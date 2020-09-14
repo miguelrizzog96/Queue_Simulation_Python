@@ -15,3 +15,11 @@ the balance between the cost of offering a service and the cost of waiting for i
 Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)* 
 ##  Objective: 
 - ***Generate a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.***
+
+## Input data
+- λ: the arrival rate (the expected time between each customer arriving, e.g. 1 minute)
+- μ: the reciprocal of the mean service time (the expected number of consecutive service completions per the same unit time, e.g. per 1 minute)
+- the distribution of the data
+
+# Data Visualization
+
