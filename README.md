@@ -25,8 +25,9 @@ Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)*
 
 # Data Visualization
 
-![](https://user-images.githubusercontent.com/69512046/93101302-18c08500-f678-11ea-9729-c573d85f666e.png)
-![](https://user-images.githubusercontent.com/69512046/93101287-16f6c180-f678-11ea-9265-5b5804c180d5.png)
+
 ![](https://user-images.githubusercontent.com/69512046/93101315-1b22df00-f678-11ea-91f7-b1b2a4b08e7b.png)
 ![](https://user-images.githubusercontent.com/69512046/93101325-1ceca280-f678-11ea-8315-9ec5cde3b81a.png)
+![](https://user-images.githubusercontent.com/69512046/93101302-18c08500-f678-11ea-9729-c573d85f666e.png)
+![](https://user-images.githubusercontent.com/69512046/93101287-16f6c180-f678-11ea-9265-5b5804c180d5.png)
 ![](https://user-images.githubusercontent.com/69512046/93101333-1f4efc80-f678-11ea-9b21-e1a16462497e.png)
