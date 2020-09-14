@@ -53,4 +53,4 @@ Using Python 3.7.6
 |   Expected number of clients in the system: |  1.49825 |  
 |   Expected time spent on the system:|   0.38538 |  
 
- # [Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
+ ## [Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
