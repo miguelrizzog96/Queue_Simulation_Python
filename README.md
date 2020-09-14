@@ -43,3 +43,13 @@ Using Python 3.7.6
 
 ## Results
 
+|  Output:                 |          | 
+| ----------- | ----------- |
+|  Time Between Arrivals:  | 0.2558   |
+| Service Time:            |  0.1580  |        
+| Utilization:             |  0.367   |
+|  Expected wait time in line:|   0.22732 |  
+|  Expected number of customers in line:|   1.0005 |  
+|   Expected number of clients in the system: |  1.49825 |  
+|   Expected time spent on the system:|   0.38538 |  
+
