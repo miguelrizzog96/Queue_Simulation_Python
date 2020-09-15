@@ -47,12 +47,12 @@ Parameters: λ = 1 (exponential) , μ = 1.5 (exponential) , c = 1
 
 |  Output:                 |          | 
 | ----------- | ----------- |
-|  Time Between Arrivals:  | 0.2558   |
-| Service Time:            |  0.1580  |        
+|  Time Between Arrivals (minutes):  | 0.2558   |
+| Service Time (minutes):            |  0.1580  |        
 | Utilization:             |  0.367   |
-|  Expected wait time in line:|   0.22732 |  
+|  Expected wait time in line (minutes):|   0.22732 |  
 |  Expected number of customers in line:|   1.0005 |  
 |   Expected number of clients in the system: |  1.49825 |  
-|   Expected time spent on the system:|   0.38538 |  
+|   Expected time spent on the system (minutes):|   0.38538 |  
 
  ## [Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
