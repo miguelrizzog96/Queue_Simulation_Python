@@ -28,11 +28,11 @@ Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)*
 Here are the distributions of the data and the value counts for other variables like occupation and number of customers in the system. Below are a few key points of the model.
 
 
-![](https://user-images.githubusercontent.com/69512046/93101315-1b22df00-f678-11ea-91f7-b1b2a4b08e7b.png)
-![](https://user-images.githubusercontent.com/69512046/93101333-1f4efc80-f678-11ea-9b21-e1a16462497e.png)
-![](https://user-images.githubusercontent.com/69512046/93101325-1ceca280-f678-11ea-8315-9ec5cde3b81a.png)
-![](https://user-images.githubusercontent.com/69512046/93101302-18c08500-f678-11ea-9729-c573d85f666e.png)
-![](https://user-images.githubusercontent.com/69512046/93101287-16f6c180-f678-11ea-9265-5b5804c180d5.png)
+![Figure 2020-09-17 074636 (1)](https://user-images.githubusercontent.com/69512046/93467728-0cc50500-f8bc-11ea-80b3-01247d448276.png)
+![Figure 2020-09-17 074636 (2)](https://user-images.githubusercontent.com/69512046/93467732-0f275f00-f8bc-11ea-82bc-78960168f24c.png)
+![Figure 2020-09-17 074636 (3)](https://user-images.githubusercontent.com/69512046/93467736-10588c00-f8bc-11ea-9ae9-549df09eb187.png)
+![Figure 2020-09-17 074636 (4)](https://user-images.githubusercontent.com/69512046/93467741-1189b900-f8bc-11ea-8f93-2c66549e784e.png)
+![Figure 2020-09-17 074636](https://user-images.githubusercontent.com/69512046/93467746-12224f80-f8bc-11ea-9516-357a24ef9919.png)
 
 ## Model Development Steps
 Using Python 3.7.6:
@@ -47,12 +47,12 @@ Parameters: λ = 1 (exponential) , μ = 1.5 (exponential) , c = 1
 
 |  Output:                 |          | 
 | ----------- | ----------- |
-|  Time Between Arrivals (minutes):  | 0.2558   |
-| Service Time (minutes):            |  0.1580  |        
-| Utilization:             |  0.367   |
-|  Expected wait time in line (minutes):|   0.22732 |  
-|  Expected number of customers in line:|   1.0005 |  
-|   Expected number of clients in the system: |  1.49825 |  
-|   Expected time spent on the system (minutes):|   0.38538 |  
+|  Time Between Arrivals (minutes):  | 1.0108  |
+| Service Time (minutes):            |  0.6494  |        
+| Utilization:             |  0.6418  |
+|  Expected wait time in line (minutes):|    1.58455 |  
+|  Expected number of customers in line:|   1.56734060 |  
+|   Expected number of clients in the system: |  2.2092 |  
+|   Expected time spent on the system (minutes):|   2.23387 |  
 
  ## [Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
