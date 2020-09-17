@@ -6,30 +6,27 @@ Created on Sat Sep 12 14:00:13 2020
 """
 
 ##single server 
-#
-#
-#
-#
-#
+ 
 #Importing Libraries
 import pandas as pd
 import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 import warnings
-warnings.filterwarnings("ignore")
+warnings.filterwarnings('ignore')
 
-
-# Single server, single queue simulation parameters
+#Single server, single queue simulation
 l = 1 # average number of arrivals per minute
-µ = 1.5 # average number of people served per minute
-ncust = 1000 # number of customers
+µ =1.5 # average number of people served per minute
+ncust =1000# number of customers
 c=1 # number of servers
 
- # generating inter arrival times using exponential distribution
+ #generating inter arrival times using exponential distribution
    
 inter_arrival_times = list(np.random.exponential(scale=1/l,size=ncust))
+
 
     
 arrival_times= []# list of arrival times of a person joining the queue
@@ -39,7 +36,7 @@ finish_times = [] # list of finish times after waiting and being served
 arrival_times = [0 for i in range(ncust)]
 finish_times = [0 for i in range(ncust)]
     
-arrival_times[0]=round(inter_arrival_times[0],4)#arrival of first customer
+arrival_times[0]=round(inter_arrival_times[0],2)#arrival of first customer
     
     #Generate arrival times
 for i in range(1,ncust):
@@ -48,6 +45,7 @@ for i in range(1,ncust):
         
     # Generate random service times for each customer 
 service_times = list(np.random.exponential(scale=1/µ,size=ncust))
+
 
         
     #finish time for first customer
@@ -80,20 +78,19 @@ for i in range(1,ncust):
     timeline.append('customer ' +str(i)+' arrived')
     timeline.append('customer ' +str(i)+' left')
     
-timeline.append('simulation ends')
-tbe.append(data.finish_times.max())
 
-
+#Creating a dataframe to summarize the time between events
 timeline = pd.DataFrame(list(zip(tbe,timeline)), 
-               columns =['TBE','Timeline']).sort_values(by='TBE').reset_index()
+               columns =['time','Timeline']).sort_values(by='time').reset_index()
 timeline=timeline.drop(columns='index')
 
 #generating the number of customers inside the system at any given time of the simulation
 
 timeline['n']=0
 x=0
-
-for i in range(1,2*ncust):
+idletime=0
+workingtime=0
+for i in range(1,(2*ncust)-2):
     if len(((timeline.Timeline[i]).split()))>2:
         z=str(timeline['Timeline'][i]).split()[2]
     else:
@@ -106,6 +103,17 @@ for i in range(1,2*ncust):
         if x==-1:
             x=0
         timeline['n'][i]=x
+    
+    if timeline['n'][i]==0:
+        idletime=idletime+ timeline['time'][i+1]-timeline['time'][i]
+    else:
+        workingtime= workingtime+ timeline['time'][i+1]-timeline['time'][i]
+
+workingtime=workingtime+timeline['time'][2*ncust-3]-timeline['time'][2*ncust-2]
+
+
+timeline.time.max()
+workingtime+idletime
 
 data['occupied']=[0 for i in range(ncust)]
 for i in range(1,ncust):
@@ -114,8 +122,22 @@ for i in range(1,ncust):
         data['occupied'][i]=1
     else:
         data['occupied'][i]=0
-    
-    
+        
+
+t= list()
+for i in timeline.index:
+   if i == (2*ncust) -2 :
+       continue
+   x=timeline.time[i+1]
+   y=timeline.time[i]
+   t.append(round((x-y),3))
+
+t.append(0) 
+timeline['tbe']=t
+Pn=timeline.groupby('n').tbe.agg(sum)/sum(t)
+
+
+  
 #checking central tendency measures and dispersion of the data
 timeline.n.describe()
 data.occupied.value_counts()
@@ -125,6 +147,9 @@ for i in timeline.index:
     if timeline.n[i]>1:
         timeline.Lq[i]= timeline['n'][i]-c
 
+
+ocupation= pd.Series(name='ocupation',data=[idletime/data.finish_times.max(),
+                                            workingtime/data.finish_times.max()],index=['Idle','Ocuppied'])
 #plots
 
 plt.figure(figsize=(12,4))
@@ -152,29 +177,32 @@ sns.despine()
 plt.show()
 
 plt.figure(figsize=(8,8))
-sns.distplot(timeline.n,kde=False,color='g')
-plt.title('Number of customers in the system')
-plt.xlabel('n')
-plt.ylabel('Frequency')
+sns.barplot(x=Pn.index,y=Pn,color='g')
+plt.title('Probability of n customers in the system')
+plt.xlabel('number of customers')
+plt.ylabel('Probability')
 sns.despine()
 plt.show()
 
 
 plt.figure(figsize=(7,7))
-sns.countplot(data.occupied,color='mediumpurple')
-plt.title('Utilization')
-plt.xlabel('occupied')
+sns.barplot(ocupation.index,ocupation,color='mediumpurple')
+plt.title('Utilization %')
+plt.xlabel('System state')
+plt.ylabel('Probability')
 sns.despine()
 plt.show()
 
 
-timeline.n.value_counts()/timeline.n.shape[0]
+Ls=(sum(Pn*Pn.index))
+Lq=sum((Pn.index[c+1:]-1)*(Pn[c+1:]))
 
 print('Output:','\n',
-      'Time Between Arrivals: ',str(data.inter_arrival_times.mean()),'\n',
-      'Service Time: ',str(data.service_times.mean()),'\n'
-      ' Utilization: ',str(data.occupied.mean()),'\n',
-      'Expected wait time in line:',str(data['wait_times'].mean()),'\n',
-       'Expected number of customers in line:',str(timeline['Lq'].mean()/2),'\n',
-       'Expected number of clients in the system:',str(timeline['n'].mean()/2),'\n'
-      ' Expected time spent on the system:',str(data.total_times.mean()),'\n',)
+      'Time Between Arrivals : ',str(data.inter_arrival_times.mean()),'\n',
+      'Service Time: (1/µ)',str(data.service_times.mean()),'\n'
+      ' Utilization (c): ',str(workingtime/timeline.time.max()),'\n',
+      'Expected wait time in line (Wq):',str(data['wait_times'].mean()),'\n',
+      'Expected time spent on the system (Ws):',str(data.total_times.mean()),'\n',
+      'Expected number of customers in line (Lq):',str(Lq),'\n',
+      'Expected number of clients in the system (Ls):',str(Ls),'\n')
+      
