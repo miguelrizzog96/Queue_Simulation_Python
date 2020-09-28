@@ -24,8 +24,8 @@ Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)*
 
 
 ## Which data do we need?
-- λ: the arrival rate (the expected time between each customer arriving, e.g. 1 minute)
-- μ: the service rate (the expected service time, e.g. 1.5 minutes)
+- λ: the arrival rate (the expected number of consecutive arrivals per the same unit time, e.g. 1 minute)
+- μ: the service rate (the expected number of consecutive service completions per the same unit time, e.g. 1 minute)
 - the distribution of the data
 - c: the number of servers
 - The number of customers to be simulated
