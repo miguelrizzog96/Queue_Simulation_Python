@@ -32,7 +32,7 @@ Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)*
 
 ## Data Visualization
 
-Here are the distributions of the data and the value counts for other variables like occupation and number of customers in the system. Below are a few key points of the model.
+Here are the distributions of the data and the value counts for other variables like occupation and number of customers in an example model. Below are a few key points of the corresponding system.
 
 
 ![Figure 2020-09-17 074636 (1)](https://user-images.githubusercontent.com/69512046/93467728-0cc50500-f8bc-11ea-80b3-01247d448276.png)
