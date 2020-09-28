@@ -17,7 +17,7 @@ Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)*
 - ***Generate a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.***
 
 ## How does it work?
-# Consider this Example: A car wash that has two service stations. Cars arrive at the car wash about every Hour on average according to a poisson process. The average time it takes to wash a car is 40 minutes, also a Poisson process. These rates often are actually modeled from actual data to get accurate results. When a car enters the facility, and at least a station is idle, they enter the system. if not they wait in line until a station becomes available, as it can be seen on the following diagram:
+ Consider this Example: A car wash that has two service stations. Cars arrive at the car wash about every Hour on average according to a poisson process. The average time it takes to wash a car is 40 minutes, also a Poisson process. These rates often are actually modeled from actual data to get accurate results. When a car enters the facility, and at least a station is idle, they enter the system. if not they wait in line until a station becomes available, as it can be seen on the following diagram:
 
 
 ![](https://user-images.githubusercontent.com/69512046/94444662-8c808880-0174-11eb-8706-e05c9b4b7eed.JPG)
