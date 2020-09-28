@@ -55,4 +55,4 @@ Parameters: λ = 1 (exponential) , μ = 1.5 (exponential) , c = 1
 |   Expected number of clients in the system (Ls): |  2.2092 |  
 |   Expected time spent on the system (Ws) (minutes):|   2.2338 |  
 
- ## [Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
+ ## Complete Walkthrough:[Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
