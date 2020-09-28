@@ -15,6 +15,7 @@ the balance between the cost of offering a service and the cost of waiting for i
 Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)* 
 ##  Objective: 
 - ***Generate a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.***
+- ***Exhibit that using this approach, system changes and different layouts can be tested without actually having to carry them out physically.***
 
 ## How does it work?
  Consider this Example: A filling station that has two dispensers. Cars arrive about every 5 minutes on average according to a Poisson process. The average time it takes to fill a car is 3 minutes, also a Poisson process. These rates often are actually modeled from actual data to get accurate results. When a car enters the facility, and at least a station is idle, they enter the system. if not they wait in line until a station becomes available, as it can be seen on the following diagram:
