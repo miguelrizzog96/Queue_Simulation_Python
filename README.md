@@ -49,7 +49,7 @@ Parameters: λ = 1 (Poisson) , μ = 1.5 (Poisson) , c = 1 , n=1000
 
 - Generated arrival and service times with random number generation using the python library `numpy`
 - Generated lists and dataframes with conditional statements to represent the events ocurring in the queue
-- Used the generated model for simulating a Single server queue with n customers
+- Used the generated model for simulating a multiple server queue with n customers
 
 ## Results
 
