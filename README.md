@@ -63,4 +63,4 @@ Parameters: λ = 1 (Poisson) , μ = 1.5 (Poisson) , c = 1 , n=1000
 |   Expected number of clients in the system (Ls): |  2.2092 |  
 |   Expected time spent on the system (Ws) (minutes):|   2.2338 |  
 
- ## For a complete walkthrough, check: [Source Code](https://github.com/miguelrizzog96/Simulation-of-a-single-server-queue/blob/master/QueuingSimulation.py)
+ ## For a complete walkthrough, check: [Source Code](https://github.com/miguelrizzog96/Queue_analisis_using_simluation/blob/master/server.ipynb)
