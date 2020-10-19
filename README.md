@@ -47,6 +47,15 @@ Here are the distributions of the data and the value counts for other variables 
 ![Figure 2020-09-17 074636 (3)](https://user-images.githubusercontent.com/69512046/93467736-10588c00-f8bc-11ea-9ae9-549df09eb187.png)
 ![Figure 2020-09-17 074636 (4)](https://user-images.githubusercontent.com/69512046/93467741-1189b900-f8bc-11ea-8f93-2c66549e784e.png)
 ![Figure 2020-09-17 074636](https://user-images.githubusercontent.com/69512046/93467746-12224f80-f8bc-11ea-9516-357a24ef9919.png)
+|  Output:                 |          | 
+| ----------- | ----------- |
+|  Time Between Arrivals (minutes):  | 1.0108  |
+| Service Time (minutes):            |  0.6494  |        
+| Utilization:             |  0.6418  |
+|  Expected wait time in line (Wq) (minutes):|    1.5845 |  
+|  Expected number of customers in line (Lq):|   1.5673 |  
+|   Expected number of clients in the system (Ls): |  2.2092 |  
+|   Expected time spent on the system (Ws) (minutes):|   2.2338 |  
 
 ## Model Development Steps
 Using Python 3.7.6:
@@ -59,13 +68,5 @@ Parameters: λ = 1 (Poisson) , μ = 1.5 (Poisson) , c = 1 , n=1000
 
 ## Example Results for c=1
 
-|  Output:                 |          | 
-| ----------- | ----------- |
-|  Time Between Arrivals (minutes):  | 1.0108  |
-| Service Time (minutes):            |  0.6494  |        
-| Utilization:             |  0.6418  |
-|  Expected wait time in line (Wq) (minutes):|    1.5845 |  
-|  Expected number of customers in line (Lq):|   1.5673 |  
-|   Expected number of clients in the system (Ls): |  2.2092 |  
-|   Expected time spent on the system (Ws) (minutes):|   2.2338 |  
+
 
