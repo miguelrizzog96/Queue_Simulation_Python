@@ -3,9 +3,9 @@
 ![](https://user-images.githubusercontent.com/69512046/93006624-747df780-f52c-11ea-9b3a-8e0f97714b87.jpg)
 
 ##  Project Overview: 
-- ***Generated a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.***
-- ***Showed that using this approach, system changes and different layouts can be tested without actually having to carry them out physically.***
-- ***Simulated over 1000 customer arrivals using Python.***
+- Generated a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.
+- Showed that using this approach, system changes and different layouts can be tested without actually having to carry them out physically.
+- Simulated over 1000 customer arrivals using Python.
 
 
  ## Code walkthrough 
