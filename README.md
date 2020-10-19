@@ -47,7 +47,7 @@ Here are the distributions of the data and the value counts for other variables 
 ![Figure 2020-09-17 074636 (3)](https://user-images.githubusercontent.com/69512046/93467736-10588c00-f8bc-11ea-9ae9-549df09eb187.png)
 ![Figure 2020-09-17 074636 (4)](https://user-images.githubusercontent.com/69512046/93467741-1189b900-f8bc-11ea-8f93-2c66549e784e.png)
 ![Figure 2020-09-17 074636](https://user-images.githubusercontent.com/69512046/93467746-12224f80-f8bc-11ea-9516-357a24ef9919.png)
-![Figure 2020-10-19 083817](https://user-images.githubusercontent.com/69512046/96452217-badb0c00-11e6-11eb-960b-197089c502a9.png)
+![Figure 2020-10-19 084256](https://user-images.githubusercontent.com/69512046/96452552-2c1abf00-11e7-11eb-93bc-6ce653057e72.png)
 |  Output:                 |          | 
 | ----------- | ----------- |
 |  Time Between Arrivals (minutes):  | 1.0108  |
