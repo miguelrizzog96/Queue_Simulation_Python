@@ -7,6 +7,9 @@
 - ***Showed that using this approach, system changes and different layouts can be tested without actually having to carry them out physically.***
 - ***Simulated over 1000 customer arrivals using Python.***
 
+
+ ## For a complete code walkthrough, check: [Source Code](https://github.com/miguelrizzog96/Queue_analisis_using_simluation/blob/master/server.ipynb)
+
 ## Why Study Queues?
 **Waiting to be attended is part of daily life. We wait in restaurants, we do a
 line to board a plane, and we stand in line to be served at
@@ -65,4 +68,3 @@ Parameters: λ = 1 (Poisson) , μ = 1.5 (Poisson) , c = 1 , n=1000
 |   Expected number of clients in the system (Ls): |  2.2092 |  
 |   Expected time spent on the system (Ws) (minutes):|   2.2338 |  
 
- ## For a complete walkthrough, check: [Source Code](https://github.com/miguelrizzog96/Queue_analisis_using_simluation/blob/master/server.ipynb)
