@@ -60,7 +60,7 @@ Here are the distributions of the data and the value counts for other variables 
 ## Model Development Steps
 Using Python 3.7.6:
 
-Parameters: λ = 1 (Poisson) , μ = 1.5 (Poisson) , c = 1 , n=1000
+Parameters used for reference: λ = 1 (Poisson) , μ = 1.5 (Poisson) , c = 1 , n=1000
 
 - Generated arrival and service times with random number generation using the python library `numpy`
 - Generated lists and dataframes with conditional statements to represent the events ocurring in the queue
