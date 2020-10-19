@@ -24,7 +24,7 @@ Queue analysis is the vehicle to achieve this goal.*(Taha,H.)*
 
 
 ## How does it work?
- Consider this Example: A filling station that has two dispensers. Cars arrive about every 5 minutes on average according to a Poisson process, which means that is a model for a series of events where the average time between events is known, but the exact timing of events is random. The average time it takes to fill a car is 3 minutes, also a Poisson process. These rates often are actually modeled from actual data to get accurate results. When a car enters the facility, and at least a station is idle, they enter the system. if not they wait in line until a station becomes available, as it can be seen on the following diagram:
+ Consider this Example: A filling station that has two dispensers. Cars arrive about every 5 minutes on average according to a Poisson process, this means that the average time between events is known, but the exact timing of events is random. The average time it takes to fill a car is 3 minutes, also a Poisson process. These rates often are actually modeled from actual data to get accurate results. When a car enters the facility, and at least a station is idle, they enter the system. if not they wait in line until a station becomes available, as it can be seen on the following diagram:
 
 
 ![](https://user-images.githubusercontent.com/69512046/94444662-8c808880-0174-11eb-8706-e05c9b4b7eed.JPG)
