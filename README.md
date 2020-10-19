@@ -35,7 +35,7 @@ Queue analysis is the vehicle to achieve this goal.*(Taha,H.)*
 - μ: the service rate (the expected number of consecutive service completions per the same unit time, e.g. 1 minute)
 - the distribution of the data
 - c: the number of servers
-- The number of customers to be simulated
+
 
 ## Data Visualization
 
