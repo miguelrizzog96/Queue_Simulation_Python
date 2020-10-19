@@ -2,6 +2,10 @@
 *Written by: Miguel Angel Rizzo Gonzalez*
 ![](https://user-images.githubusercontent.com/69512046/93006624-747df780-f52c-11ea-9b3a-8e0f97714b87.jpg)
 
+##  Project Overview: 
+- ***Generated a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.***
+- ***Showed that using this approach, system changes and different layouts can be tested without actually having to carry them out physically.***
+- ***Simulated over 1000 customer arrivals using Python
 
 ## Why Study Queues?
 **Waiting to be attended is part of daily life. We wait in restaurants, we do a
@@ -13,9 +17,7 @@ waiting entirely is not a feasible option because the cost of installation and
 operation of the operation center can be prohibitive. Our only recourse is to search
 the balance between the cost of offering a service and the cost of waiting for it to be served.
 Queue analysis is the vehicle to achieve this goal.** *(Taha,H.)* 
-##  Objective: 
-- ***Generate a Simulation model that outputs the performance measures, such as average length, average waiting time, utilization of the system, etc. to provide information for designing or improving service facilities.***
-- ***Exhibit that using this approach, system changes and different layouts can be tested without actually having to carry them out physically.***
+
 
 ## How does it work?
  Consider this Example: A filling station that has two dispensers. Cars arrive about every 5 minutes on average according to a Poisson process. The average time it takes to fill a car is 3 minutes, also a Poisson process. These rates often are actually modeled from actual data to get accurate results. When a car enters the facility, and at least a station is idle, they enter the system. if not they wait in line until a station becomes available, as it can be seen on the following diagram:
