@@ -55,7 +55,7 @@ Here are the distributions of the data and the value counts for other variables 
 
 ![Figure 2020-10-19 084256](https://user-images.githubusercontent.com/69512046/99907671-84e0ea00-2cb4-11eb-9da5-47c03c67d5db.png)
 
-|  Output:                 |          | 
+| Example Output:                 |          | 
 | ----------- | ----------- |
 |  Time Between Arrivals (minutes):  | 1.0108  |
 | Service Time (minutes):            |  0.6494  |        
