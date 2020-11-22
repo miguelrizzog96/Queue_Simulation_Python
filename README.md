@@ -50,7 +50,6 @@ Here are the distributions of the data and the value counts for other variables 
 ![Figure 2020-09-17 074636 (1)](https://user-images.githubusercontent.com/69512046/99907675-87dbda80-2cb4-11eb-8bd9-431acfcdf26a.png)
 ![Figure 2020-09-17 074636 (2)](https://user-images.githubusercontent.com/69512046/99907674-86aaad80-2cb4-11eb-9469-1a2fdd2651f6.png)
 ![Figure 2020-09-17 074636 (3)](https://user-images.githubusercontent.com/69512046/99907672-86121700-2cb4-11eb-994c-aa76205650cf.png)
-![Figure 2020-09-17 074636 (4)](https://user-images.githubusercontent.com/69512046/93467741-1189b900-f8bc-11ea-8f93-2c66549e784e.png)
 ![Figure 2020-10-19 084256](https://user-images.githubusercontent.com/69512046/99907671-84e0ea00-2cb4-11eb-9da5-47c03c67d5db.png)
 |  Output:                 |          | 
 | ----------- | ----------- |
